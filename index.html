@@ -15,12 +15,14 @@
  <main>
   <form id="survey-form">
     <fieldset>
-     <p id ="name-label">Name:</p><br>
-     <input id="name" type="text"/> <br>
-     <p id ="email-label">Email:</p><br>
-     <input id="email" type="email"/> <br>
-     <p id="number-label">Number:</p> <br>
-     <input id="number" type="number"/> <br>
+     <label class="fieldlabel" id ="name-label">Name:</label>
+     <input class="fieldinput" id="name" type="text"/>
+     <label class="fieldlabel" id ="email-label">Email:</label>
+     <input class="fieldinput" id="email" type="email"/>
+     <label class="fieldlabel" id="number-label"></label> Number:</label>
+     <input class="fieldinput" id="number" type="number" min="1" max="10"/>
+     <label class="fieldlabel" id ="dropdown-label">Choose Color</label>
+     <input class="fieldinput" id="dropdown" type="dropdown"/>
   </fieldset>
   </form>
  </main>

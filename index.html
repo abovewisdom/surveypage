@@ -14,11 +14,11 @@
       <p id="description"> This survey collects website satisfaction information.</p>
      <div>
        <label class="fieldlabel" id ="name-label" for="name">Name:</label>
-       <input class="fieldinput" id="name" type="text" placeholder="Enter Name"/>
+       <input class="fieldinput" id="name" type="text" placeholder="Enter Name" required="true"/>
      </div>
      <div>
        <label class="fieldlabel" id ="email-label" for="email">Email:</label>
-       <input class="fieldinput" id="email" type="email" placeholder="Enter Email"/>
+       <input class="fieldinput" id="email" type="email" placeholder="Enter Email" required="true"/>
      </div>
      <div>
       <label class="fieldlabel" id="number-label" for="number"> Number:</label>
@@ -26,8 +26,8 @@
      </div>
      <div>
        <label class="fieldlabel" id ="dropdown-label" for="dropdown">Choose Overall Satisfaction</label>
-       <select class="fieldinput" list="dropdown"/>
-        <datalist id="dropdown">
+       <select class="fieldinput" id="dropdown" list="dropdown"/>
+        <datalist>
          <option> Outstanding </option>
          <option> Great </option>
          <option> Ok</option>
@@ -52,7 +52,7 @@
       <textarea type="textarea" id="additionalcomment" rows="8" columns ="30"></textarea>
     </div>
     <div>
-     <input type="submit">
+     <input id="submit" type="submit" value="Submit">
     </div>
     </fieldset>
   </form>

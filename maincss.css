@@ -12,11 +12,12 @@ h1{
 }
 .fieldlabel{
   display: inline-block;
+  widt: 90px;
   font-weight: bold;
   text-align: right;
 }
 .fieldinput{
-  display: block;
+  display: inline-block;
   padding: 1px;
   font-size: .85em;
 }

@@ -1,18 +1,17 @@
 h1{
   font-size: 1.5em;
 }
-#survey-form{
+#survey-form{ 
   margin: auto;
   position:relative;
   max-width: 400px;
   padding: 1em;
   border-radius: 1em;
-  /* line-height: 1.6875; */
   font-family: 'Gentium Basic', serif;
 }
 .fieldlabel{
   display: inline-block;
-  widt: 90px;
+  /* width: 90px; */
   font-weight: bold;
   text-align: right;
 }
@@ -20,4 +19,8 @@ h1{
   display: inline-block;
   padding: 1px;
   font-size: .85em;
+}
+.pair {
+  /* display: grid; */
+  padding-top: 5px;
 }

@@ -12,20 +12,20 @@
     <fieldset>
       <h1 id="title"> Website Satisfaction Survey</h1>
       <p id="description"> This survey collects website satisfaction information.</p>
-     <div>
+     <div class="pair">
        <label class="fieldlabel" id ="name-label" for="name">Name:</label>
        <input class="fieldinput" id="name" type="text" placeholder="Enter Name" required="true"/>
      </div>
-     <div>
+     <div class="pair">
        <label class="fieldlabel" id ="email-label" for="email">Email:</label>
        <input class="fieldinput" id="email" type="email" placeholder="Enter Email" required="true"/>
      </div>
-     <div>
+     <div class="pair">
       <label class="fieldlabel" id="number-label" for="number"> Number:</label>
       <input class="fieldinput" id="number" type="number" min="1" max="10" placeholder="1..."/>
      </div>
-     <div>
-       <label class="fieldlabel" id ="dropdown-label" for="dropdown">Choose Overall Satisfaction</label>
+     <div class="pair">
+       <label class="fieldlabel" id ="dropdown-label" for="dropdown">Overall Satisfaction</label>
        <select class="fieldinput" id="dropdown" list="dropdown">
          <option> Outstanding </option>
          <option> Great </option>
@@ -34,19 +34,19 @@
          <option> Terrible </option>
        </select>
      </div>
-     <div>
-       <label class="fieldlabel">Choose Color preference:</label> <br>
+     <div class="pair">
+       <label class="fieldlabel">Color preference:</label> <br>
        <input type="radio" name="colorpref" id="colorblue" value="blue">
        <label for="colorblue">I prefer sites with blue</label> <br>
        <input type="radio" name="colorpref" id="colorred" value="red">
        <label for="colorred">I prefer sites with red.</label>
     </div>
-    <div>
+    <div class="pair">
        <label class="fieldlabel">How did you access this site?</label> <br>
        <input type="checkbox" name="accessedviaphone" value="phone"> I accessed this site via phone. <br>
        <input type="checkbox" name="accessedvialaptop" value="laptop"> I accessed this site via laptop. <br>
     </div>
-    <div>
+    <div class="pair">
       <label class="fieldlabel">Enter additional comments here:</label> <br>
       <textarea type="textarea" id="additionalcomment" rows="8" columns ="30"></textarea>
     </div>
